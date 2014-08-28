@@ -1,0 +1,26 @@
+#sistema de reserva de habitaciones
+
+-sistema de reserva de habitaciones.
+  -tempora alta/baja.
+  -incluir almuerzo/cena/estacionamiento/requisitos especiales/
+  -mapa del sitio para reserva.
+  -sistema de pago online.
+Sistema para secretaria
+-control de checkin/checkout.
+-cargo de consumo
+-sistema de cancelacion.
+
+Sistema de usuarios para reserva de habitaciones.
+-sistema de usuarios.
+
+-sistema de mucamas?
+
+Sistema para el administrador.
+-sistema estadistico (para futuras reservas generar descuentos o atencion especial).
+-sistema de convenios.
+  -calendario de reservas por mes.
+  -sistema de estado de habitaciones.
+  -sistema de cargo por consumo fuera de contrato o cargo a la habitacion.
+  -modificar habitaciones (cantidad de camas/precio de habitaciones/cargo de consumo).
+  
+
