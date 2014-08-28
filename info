@@ -1,0 +1,32 @@
+# programas a utilizar para el desarrollo del sistema.
+
+-Sublime text 2/3
+-xampp ultima version
+
+SERVIDOR WEB A UTILIZAR EN EL DESARROLLO DEL SITIO
+hostinger.es
+
+
+SITIO DE BOOTSTRAP 
+http://getbootstrap.com/
+
+template de bootstrap 3
+http://bootswatch.com/simplex/
+
+CDN DE BOOTSTRAP 3
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+SITIO DE AWESOME FONT
+http://fortawesome.github.io/Font-Awesome/
+
+CDN de awesome font
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
