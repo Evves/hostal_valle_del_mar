@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F13F5B7-3A1E-CB88-7C2D-9D9EE5AE9C06" name="tiposLimpiezas">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>6E55545D-3DCE-A342-035A-A3222A469417</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="ED1E59C5-EA43-4C39-8FBF-356B6A0C309E">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>284E50A6-2260-44ED-17AB-D0C674BDF1DD</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3BE0ADA8-44E3-0005-E782-829AC21917E2">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>CC9ED337-1325-B26D-E349-BEEABE9CE5AB</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="47FBDD55-F41D-0FEE-D870-12FFBEAAADB9">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>43E1D69E-DFD3-6DAB-2FFF-7E7364177427</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE25ED87-2035-8375-A91B-7A6707EC8F16" name="tiposLimpiezas_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>D730D0B2-DB74-87E8-CA3A-1A7350A99CA4</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED1E59C5-EA43-4C39-8FBF-356B6A0C309E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

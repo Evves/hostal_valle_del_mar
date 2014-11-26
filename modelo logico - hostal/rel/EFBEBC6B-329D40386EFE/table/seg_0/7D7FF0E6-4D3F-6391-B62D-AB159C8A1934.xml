@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D7FF0E6-4D3F-6391-B62D-AB159C8A1934" name="provincias">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>AE790F07-9AEA-66AA-B5BA-7D1E824B5CB2</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4607DB3A-D2DA-0CF2-BA32-936DB8417A7A">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>143AC0A7-F81F-9315-0DB1-502CAB884D59</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8D38D824-8BC0-631A-8BE6-A37B8B812134">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>664BCB75-6FF7-5EA4-4FBE-BFF5EC07FF6B</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="F5455203-3378-ECEB-0483-106709D053B8">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>32C1AD91-AA6C-27DD-C791-2390C131DD72</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regiones_id" id="DB695E60-62DA-4CF8-DADF-B3E3CB3CD9C2">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>6ABDC31A-7D56-A764-3BD7-343C5CC4CD8A</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F0FEB969-FCDE-60BA-6C24-5D6E422BA39E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0709B311-199C-C550-62E6-4D00C8829002" referredColumn="F0FEB969-FCDE-60BA-6C24-5D6E422BA39E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E82BD593-8797-8FDB-94D2-697325D1B21E" name="provincias_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>24ECFC1D-22B1-8D2C-77E3-59DDAD6AEF7E</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4607DB3A-D2DA-0CF2-BA32-936DB8417A7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46AF1558-40D6-27D2-3A5C-ED9C57EEE0A7" name="provincias_regiones_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>5C5C21C7-5FE6-A6A5-AD61-F56381F3D3BA</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB695E60-62DA-4CF8-DADF-B3E3CB3CD9C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

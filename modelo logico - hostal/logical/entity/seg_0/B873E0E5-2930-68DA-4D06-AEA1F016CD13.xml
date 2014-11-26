@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B873E0E5-2930-68DA-4D06-AEA1F016CD13" name="tiposFonos">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:44:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="07D1EC4F-393D-C9DC-5998-DD3787BC2114">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:13:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="tipo" id="B9D46CAB-F179-B1DD-8025-7E40FAE3092F">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:45:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21FA3B71-85D3-9491-E9DC-BC4E5ABA8B1F" name="tipoFonos PK">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:13:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07D1EC4F-393D-C9DC-5998-DD3787BC2114</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

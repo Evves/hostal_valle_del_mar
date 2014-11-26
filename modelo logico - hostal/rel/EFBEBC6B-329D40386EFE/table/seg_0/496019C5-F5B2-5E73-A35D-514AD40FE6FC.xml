@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="496019C5-F5B2-5E73-A35D-514AD40FE6FC" name="reservas">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>21730554-6074-5FF7-65E0-87BEDB2E98EB</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="07C9AF8D-FFDE-E2FA-4CE6-DF71E6012AFE">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>CB3C145C-5D18-0780-A3F1-40172BAAD549</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="EBCC2F6C-E552-BF5E-1243-CED57255753F">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>8845A64A-2BC6-C8C3-67D4-05FAEE0AE3A5</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personas_id" id="3AF5A39A-ACFF-395C-AF4D-36602F18DD1B">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>69936D5D-E297-1948-895B-4ADC52139AC1</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4211A6BE-C8F3-91B4-4D58-99D0C5D0052C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="317303E9-9A53-F99F-168B-45AAF9D86B0E" referredColumn="4211A6BE-C8F3-91B4-4D58-99D0C5D0052C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF24E9F9-08D9-994F-B285-016B56E8AC1C" name="reservas_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>C9D41358-F2DD-7089-50D0-8125B47AD93F</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C9AF8D-FFDE-E2FA-4CE6-DF71E6012AFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4549FD67-2121-30D8-8DE0-5C9295EF99FB" name="reservas_personas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>84378C64-EE26-A6B5-9C6B-FF1709C267E1</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AF5A39A-ACFF-395C-AF4D-36602F18DD1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

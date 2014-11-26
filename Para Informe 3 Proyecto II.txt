@@ -1,0 +1,49 @@
+Porque usaremos Windows
+Bueno porque nuestro cliente se maneja y conoce mucho mejor el ambiente de windows y si le pusieramos otro
+como por ejemplo linux, le seria mucho mas dificultoso aprender y tomaria mucho mas tiempo.
+
+Porque usaremos PHP
+- Es un lenguaje multiplataforma.
+- Completamente orientado al desarrollo de aplicaciones web dinámicas con acceso a información almacenada en una Base de Datos.
+- El código fuente escrito en PHP es invisible al navegador y al cliente ya que es el servidor el que se encarga de ejecutar el código y enviar su resultado HTML al navegador. Esto hace que la programación en PHP sea segura y confiable.
+- Capacidad de conexión con la mayoría de los motores de base de datos que se utilizan en la actualidad, destaca su conectividad con MySQL y PostgreSQL.
+- Capacidad de expandir su potencial utilizando la enorme cantidad de módulos (llamados ext's o extensiones).
+
+
+MySQL
+- MySQL software es Open Source
+- Velocidad   al realizar las operaciones, lo que le hace uno de los gestores con mejor      rendimiento.
+- Bajo      costo en requerimientos para la elaboración de bases de datos, ya que      debido a su bajo consumo puede ser ejecutado en una máquina con escasos      recursos sin ningún problema.
+- Facilidad      de configuración e instalación.
+- Soporta gran variedad de Sistemas Operativos
+
+
+
+
+Seguridad del proovedor
+COmo nuestro sistema esta hecho para trabajar complementariamente con internet, el proovedor debe ser seguro, en este caso nuestro
+cliente trabaja con vtr y en estos años no ha tenido ningun problema, tambien le plantearemos a nuestro clientes si esque
+esta dispuesto a pagar a otro proovedor, por si se cae alguno de los 2, el siga teniendo conexion a internet.
+
+
+Hosting
+Sobre el hosting tendremos uno que soporte base de datos y que sea bien catalagado en Chile, ademas estos mismos dan planes 
+de respaldos que eso sera decision de nuestro cliente si lo toma o no, pues claro seria lo ideal y se lo recomendariamos.
+
+
+Luz
+recomendarle tener un transformador por si se corta la luz alcanzar a guardar todo y apagar correctamente su pcs.
+
+Topologia Estrella
+En la topología de estrella, los equipos de la red están conectados a un hardware denominado concentrador. 
+
+Su función es garantizar la comunicación entre esos sockets.
+A diferencia de las redes construidas con la topología de bus,
+ las redes que usan la topología de estrella son mucho menos vulnerables, 
+ya que se puede eliminar una de las conexiones fácilmente desconectándola 
+del concentrador sin paralizar el resto de la red. El punto crítico en esta red es el concentrador, 
+ya que la ausencia del mismo imposibilita la comunicación entre los equipos de la red.
+
+Los clientes del hostal tendrian ip dinamica.
+y los Aparatos del hostal como computadores y tablet tendrian ip estatica.
+

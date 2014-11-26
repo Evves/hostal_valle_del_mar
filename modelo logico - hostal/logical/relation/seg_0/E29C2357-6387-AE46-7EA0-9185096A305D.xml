@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="E29C2357-6387-AE46-7EA0-9185096A305D">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:39:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<sourcePk>17152564-A875-AF53-BC9A-C5A07E4D99C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5AAD7097-AB30-4FEB-D474-2805846E5CFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63337E95-2044-309B-0E2D-D9356DB8B225</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1946E278-CB36-AD7D-1727-FF36DB22EC48" name="productos">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="38552661-5CB9-2C0C-860C-988C2CE483D0">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:14:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nombre" id="5E4D9ACF-73CF-22FA-5465-B2267128D079">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="precio" id="98960A93-2A5B-2E0E-4502-C9DD0E52EACE">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="caracteristicas" id="2D1F29AA-C149-4DC7-4F78-11AF1659C7A9">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="estado" id="B3334B3E-4182-A44C-20BB-7C1390CCB003">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C94FB4FB-8BCB-3F0F-2BA5-3AA6DDC28301" name="productos PK">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:14:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38552661-5CB9-2C0C-860C-988C2CE483D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

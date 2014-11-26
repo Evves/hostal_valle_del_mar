@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD50765E-9A43-E522-0D42-89BB95E16E9A" name="roles_personas">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="roles_id" id="A8939FCE-CB2B-2DF9-B0CA-D72166BCDC67">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FEBA9E29-B1FF-1F5C-FEB8-1124C4B47FAA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C082723-5EC3-0031-FAE2-95468E076906" referredColumn="FEBA9E29-B1FF-1F5C-FEB8-1124C4B47FAA"/>
+</associations>
+</Column>
+<Column name="personas_id" id="EBCB5E31-1D08-3C83-9C6E-A91CCC008E7C">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4211A6BE-C8F3-91B4-4D58-99D0C5D0052C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4743C914-7582-19A4-C666-BBBB904ED275" referredColumn="4211A6BE-C8F3-91B4-4D58-99D0C5D0052C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF1BA6F4-F1CB-5090-B0DE-1BFD5B9F17A8" name="roles_personas_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8939FCE-CB2B-2DF9-B0CA-D72166BCDC67"/>
+<colUsage columnID="EBCB5E31-1D08-3C83-9C6E-A91CCC008E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4486531-AA22-8E4F-6658-C59808845EEC" name="FK_ASS_22">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>971001DB-878B-2F0D-6B2D-67AA2C088E1F</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8939FCE-CB2B-2DF9-B0CA-D72166BCDC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C61D34F-65C4-9277-AA80-24DEEB0DF364" name="FK_ASS_23">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>971001DB-878B-2F0D-6B2D-67AA2C088E1F</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBCB5E31-1D08-3C83-9C6E-A91CCC008E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

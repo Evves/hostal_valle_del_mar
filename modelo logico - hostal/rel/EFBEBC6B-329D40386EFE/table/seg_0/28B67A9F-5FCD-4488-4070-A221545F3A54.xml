@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28B67A9F-5FCD-4488-4070-A221545F3A54" name="pedidos_productos">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pedidos_id" id="2D4FFF7F-9C3E-5692-A90B-D83A6AB610AC">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0C9BF0ED-103B-CB10-12F2-6FA00629B672</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71388323-46AF-35E4-A806-D9F9868AE133" referredColumn="0C9BF0ED-103B-CB10-12F2-6FA00629B672"/>
+</associations>
+</Column>
+<Column name="productos_id" id="CE85B31A-748F-989E-2287-13BF2B73EB4F">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>59E32639-5565-329E-448B-085F06273C52</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFC64355-8E1A-EA73-86CA-9B9F41F7B5B7" referredColumn="59E32639-5565-329E-448B-085F06273C52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA26AA93-7F4F-7281-66DD-DC87072588E6" name="pedidos_productos_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4FFF7F-9C3E-5692-A90B-D83A6AB610AC"/>
+<colUsage columnID="CE85B31A-748F-989E-2287-13BF2B73EB4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B0055B1-3AFD-55E7-00D5-01D6829AC0EA" name="FK_ASS_20">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>93F4A6AA-11E1-78BC-E606-8A9C39654E56</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4FFF7F-9C3E-5692-A90B-D83A6AB610AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A592291-26FC-3F9D-B633-A655DB220E5D" name="FK_ASS_21">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>93F4A6AA-11E1-78BC-E606-8A9C39654E56</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE85B31A-748F-989E-2287-13BF2B73EB4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28B668FB-7ADC-B55B-2E60-512982726765" name="habitaciones">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:47:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="32B3EAE5-333D-3F0A-BCA6-EEA5B51032B5">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:14:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="numero" id="5C223081-4A79-ED9B-6438-953459652DE9">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:47:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="camaMatrimonial" id="BC5A46D0-1FE2-70E0-FACB-2D5587A97EDB">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:47:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="camaCamarote" id="6FC022EC-16C0-CCD4-A1A2-E614F89D3813">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:47:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="camaIndividual" id="3D02A6C9-A4F6-44DF-0B54-12D5D0C73D14">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:47:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="estado" id="431054BB-B1E9-EEF2-F3D6-606A144EDDEF">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:47:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1307CF2A-7A86-137B-C5CB-D1FA1E254F6D" name="habitaciones PK">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:14:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32B3EAE5-333D-3F0A-BCA6-EEA5B51032B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

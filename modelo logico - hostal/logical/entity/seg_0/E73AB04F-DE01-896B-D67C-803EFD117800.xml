@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E73AB04F-DE01-896B-D67C-803EFD117800" name="empresas">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:01:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DF39BFC2-A537-E8D4-0147-B4467DAF1B6F">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:02:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nombre" id="70B6FC5F-BACC-C8F3-04E1-04ECA68F7F21">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:02:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="rut" id="97CACE68-AE1E-1C8D-97DD-3695A449F3D6">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:02:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="estado" id="1CAFA5ED-0C51-DA67-3A79-4574A485CD26">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:02:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="descripcion" id="63F84E67-7D7C-57BC-09AC-E505B2BEDC18">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:02:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</Attribute>
+<Attribute name="direccion" id="AA644888-34EB-6AF8-8A60-3D84783FEF87">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:03:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="fechaRegistro" id="392232D3-F886-6F8E-3EAB-6F9E83A6F8CC">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:03:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6858BCD6-BE37-B80C-AE88-59B3C247F5C4" name="{entity} PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 14:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="6E219C15-6763-C062-E3E7-F42987F759E2" value="true"/>
+<item key="DC6DCB15-DCC9-8764-81FD-4A8F3CC0AE24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF39BFC2-A537-E8D4-0147-B4467DAF1B6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

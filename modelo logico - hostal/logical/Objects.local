@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="62BF2582-2D00-42C0-357F-BB02A1474C5C" name="comunas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="63337E95-2044-309B-0E2D-D9356DB8B225" name="correos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E73AB04F-DE01-896B-D67C-803EFD117800" name="empresas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FE36A40A-03E4-0634-8CF3-2A45D4F6F6CE" name="fonos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="28B668FB-7ADC-B55B-2E60-512982726765" name="habitaciones" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3139FD56-D234-AC04-B6DF-A2451B97C0D2" name="invetarios" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5859E65D-2279-CBA7-F3B0-E76D32295FD3" name="limpiezas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1DE85139-F55C-4EFC-92C7-80E2E450C55B" name="nacionalidades" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4297C367-02A0-C98B-C793-009AC15A2EDE" name="pedidos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5AAD7097-AB30-4FEB-D474-2805846E5CFD" name="personas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1946E278-CB36-AD7D-1727-FF36DB22EC48" name="productos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE790F07-9AEA-66AA-B5BA-7D1E824B5CB2" name="provincias" seqName="seg_0"/>
+   <object objectType="Entity" objectID="206934DF-4360-7933-0BDD-B3B1D371B3FE" name="regiones" seqName="seg_0"/>
+   <object objectType="Entity" objectID="060E197A-AFDA-C347-34D7-1C817D84304F" name="reparaciones" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5A65CEEF-06F9-E134-C17B-6B8A32112A48" name="reportes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="21730554-6074-5FF7-65E0-87BEDB2E98EB" name="reservas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FF1C2D7D-6065-5B18-FA99-42A05A55D288" name="reservas_habitaciones" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B716A195-F425-572D-D2FA-826349209280" name="roles" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CE8CBC2F-8E68-510E-E55F-223947507466" name="tiposEstados" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B873E0E5-2930-68DA-4D06-AEA1F016CD13" name="tiposFonos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6E55545D-3DCE-A342-035A-A3222A469417" name="tiposLimpiezas" seqName="seg_0"/>
+   <object objectType="Relation" objectID="74A7E3B4-5DAB-5301-006A-A51342B26134" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8805DC43-7E6E-A3BB-33BD-8B5EF7E42F21" name="Relation_12" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B843B996-E7EE-65DF-5EDC-6188D0D55E8C" name="Relation_13" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1C8B4793-29A7-3A07-A685-6A39A5938AAC" name="Relation_14" seqName="seg_0"/>
+   <object objectType="Relation" objectID="84378C64-EE26-A6B5-9C6B-FF1709C267E1" name="Relation_16" seqName="seg_0"/>
+   <object objectType="Relation" objectID="09C29F3D-6970-F971-653B-FCD7A290E138" name="Relation_17" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1DA9DA81-29B6-9ED8-BF65-60554D2D314B" name="Relation_18" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2CC2062F-D831-2DF8-8258-7B7C11F6BE76" name="Relation_19" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ED63344D-E796-0D94-07D6-2EF8DD835872" name="Relation_20" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7CB68AA2-AB73-B401-A828-F610E9E250FA" name="Relation_21" seqName="seg_0"/>
+   <object objectType="Relation" objectID="53425E0B-BA7E-F8B7-CBBD-A620F7D013A6" name="Relation_22" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F39459BC-C47F-8EB0-3871-81FC39693FCB" name="Relation_23" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C542635F-FA09-B1A8-E21F-00550B87D27E" name="Relation_24" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E2484A75-96D6-E262-E554-4E9FCD73829D" name="Relation_25" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E29C2357-6387-AE46-7EA0-9185096A305D" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3D164B24-A065-6291-D277-08CC5477D458" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3A32B5B2-8B5C-1814-FC33-9590F6AEDC2A" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5C5C21C7-5FE6-A6A5-AD61-F56381F3D3BA" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1A59ACBD-DB56-CFA2-AC21-FAC6CFB43AB0" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="93F4A6AA-11E1-78BC-E606-8A9C39654E56" name="pedidos_productos" seqName="seg_0"/>
+   <object objectType="Relation" objectID="971001DB-878B-2F0D-6B2D-67AA2C088E1F" name="roles_personas" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

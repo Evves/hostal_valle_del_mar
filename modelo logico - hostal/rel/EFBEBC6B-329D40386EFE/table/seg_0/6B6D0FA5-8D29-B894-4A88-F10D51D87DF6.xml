@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B6D0FA5-8D29-B894-4A88-F10D51D87DF6" name="personas">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>5AAD7097-AB30-4FEB-D474-2805846E5CFD</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4211A6BE-C8F3-91B4-4D58-99D0C5D0052C">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>20DA5BDE-83B8-20E2-71C7-B33E11852F67</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="88E6EDE8-0A4E-B32D-2A28-B4C41E3EC414">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>1C560ABA-2EE6-663D-FE20-A92AE87B29B4</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apelllidoPaterno" id="A237818B-9618-C002-E70D-C9B2EEACE8B7">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>24A4156F-84F4-BB23-8E45-56C5C5461C3B</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidoMaterno" id="A2846D02-BBF6-EDDC-0BDC-29C37071A172">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>E59FE2F3-D7E0-A74E-A3F3-BA31721E54AD</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="045A5974-2315-8727-5505-F3E8245F46EE">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>A4F9FEF4-29A0-FCDE-2458-A8FA07680C1B</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNace" id="414E5AC4-02F5-7975-A68B-1D7FACFB5649">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>669F25C3-F03A-E941-A134-E86B4F71E49B</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="95638BC8-B55D-E2A6-486F-93EA2993E7EB">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>176D7F44-CA89-FB53-4756-47DB6645E4A4</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="D7DB8CB2-F87B-5966-4990-64C85E7A3F23">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>73DDEFC6-E3C7-B52C-4E1C-71B5F9027989</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="6EFFD299-C1D9-A876-91C0-0431530D8A76">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>8E2F6B97-93D3-4823-4710-1771A6BA95C0</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cotrasena" id="2DCA3C3F-421E-E37A-EAD0-D43282FF6443">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>A3014FA6-ACBC-E812-5902-926C57B6CE9B</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comunas_id" id="2869183B-815A-F654-4521-52664E74B98C">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>33DE032C-9C48-0C9C-8110-D1BB504720CA</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FF9D4E6D-A77C-47B7-2127-4A4C3E4BF163</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E0718C7-0E5F-0995-F370-3B3B04AA394C" referredColumn="FF9D4E6D-A77C-47B7-2127-4A4C3E4BF163"/>
+</associations>
+</Column>
+<Column name="empresas_id" id="37929C05-1CD0-A278-821F-7827BF61D8FF">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>6C290475-BCD8-8E6C-B119-7A2B38D7D33D</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C04A5EC0-BEF1-67D8-B731-9D877CEA8CD7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FE89427-C6B9-5ECF-7249-9F181451C836" referredColumn="C04A5EC0-BEF1-67D8-B731-9D877CEA8CD7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98AFB3EF-CC8A-239E-4C99-EBDE3C249398" name="personas_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>17152564-A875-AF53-BC9A-C5A07E4D99C3</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4211A6BE-C8F3-91B4-4D58-99D0C5D0052C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F334CD82-F614-B722-1451-EEA2C2C4E6FE" name="personas_empresas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>74A7E3B4-5DAB-5301-006A-A51342B26134</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37929C05-1CD0-A278-821F-7827BF61D8FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C324646B-8678-D38D-2ABA-DD6ABD28944C" name="personas_comunas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>1A59ACBD-DB56-CFA2-AC21-FAC6CFB43AB0</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2869183B-815A-F654-4521-52664E74B98C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

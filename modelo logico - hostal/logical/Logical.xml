@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2B273B25-131B-17C1-D73C-94F19A26A212" mainViewID="B0221370-D7A5-0422-607B-97B999F2F4CA">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:29:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

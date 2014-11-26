@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF1C2D7D-6065-5B18-FA99-42A05A55D288" name="reservas_habitaciones">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 12:39:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fechaIngreso" id="906526D4-16EC-FF80-959E-AB56CB1F3804">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 12:39:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="fechaSalida" id="B3DCC78A-8102-D9AB-B8A4-059DCC0C37D7">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 12:39:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="id" id="41B4E1E4-16F8-8EFF-7791-F1D1633B6C55">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:47:59 UTC</createdTime>
+<generatorID>09C29F3D-6970-F971-653B-FCD7A290E138</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<referedAttribute>CB3C145C-5D18-0780-A3F1-40172BAAD549</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id1" id="1A19ABFB-FA41-0C58-5EA8-8EFF95E56B75">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:50:00 UTC</createdTime>
+<generatorID>7CB68AA2-AB73-B401-A828-F610E9E250FA</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<referedAttribute>32B3EAE5-333D-3F0A-BCA6-EEA5B51032B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E3B59CA-CDD4-8FE7-CD92-AC372B54443F" name="{entity} PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 12:39:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>906526D4-16EC-FF80-959E-AB56CB1F3804</attributeRef>
+<attributeRef>B3DCC78A-8102-D9AB-B8A4-059DCC0C37D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

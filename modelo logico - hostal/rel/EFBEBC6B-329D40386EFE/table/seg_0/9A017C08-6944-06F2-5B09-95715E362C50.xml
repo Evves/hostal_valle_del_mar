@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A017C08-6944-06F2-5B09-95715E362C50" name="reservas_habitaciones">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>FF1C2D7D-6065-5B18-FA99-42A05A55D288</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fechaIngreso" id="0D7980E6-C428-6160-72B5-7D2CE637A076">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>906526D4-16EC-FF80-959E-AB56CB1F3804</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaSalida" id="8A3465DC-3E36-7C18-C380-3E1271162A55">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>B3DCC78A-8102-D9AB-B8A4-059DCC0C37D7</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reservas_id" id="1884D653-60CB-D068-FB49-79BD15A02DB0">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>41B4E1E4-16F8-8EFF-7791-F1D1633B6C55</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>07C9AF8D-FFDE-E2FA-4CE6-DF71E6012AFE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4819E4BB-8D33-70F9-0002-9AB4C0C96FBF" referredColumn="07C9AF8D-FFDE-E2FA-4CE6-DF71E6012AFE"/>
+</associations>
+</Column>
+<Column name="habitaciones_id" id="62DA10A1-59C1-F0DF-7E45-201959F3ECF6">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>1A19ABFB-FA41-0C58-5EA8-8EFF95E56B75</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F71D4729-87BE-245D-CEFD-19F7D4AF29D9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0703AEC6-AE1C-59C3-34FD-10B441CFE7E2" referredColumn="F71D4729-87BE-245D-CEFD-19F7D4AF29D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBDB2C39-73D1-C8D9-34E2-4F86E8811736" name="reservas_habitaciones_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>5E3B59CA-CDD4-8FE7-CD92-AC372B54443F</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D7980E6-C428-6160-72B5-7D2CE637A076"/>
+<colUsage columnID="8A3465DC-3E36-7C18-C380-3E1271162A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0938F130-5C2A-3F87-16FE-ABF55B8D77AC" name="reservas_habitaciones_reservas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>09C29F3D-6970-F971-653B-FCD7A290E138</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1884D653-60CB-D068-FB49-79BD15A02DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B1CA8DF-E84B-EC45-ECA8-AA5EEBF4AC8F" name="reservas_habitaciones_habitaciones_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>7CB68AA2-AB73-B401-A828-F610E9E250FA</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62DA10A1-59C1-F0DF-7E45-201959F3ECF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

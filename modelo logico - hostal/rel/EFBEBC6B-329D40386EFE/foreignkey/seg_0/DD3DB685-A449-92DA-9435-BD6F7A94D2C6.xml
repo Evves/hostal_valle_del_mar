@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD3DB685-A449-92DA-9435-BD6F7A94D2C6" name="fonos_personas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>8805DC43-7E6E-A3BB-33BD-8B5EF7E42F21</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<containerWithKeyObject>6C34CA4C-FD01-3706-4A51-58C5B359EA15</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5DEE1ED7-3E1F-24C6-9F14-4FDADC041984</localFKIndex>
+<keyObject>98AFB3EF-CC8A-239E-4C99-EBDE3C249398</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

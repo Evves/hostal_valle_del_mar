@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C34CA4C-FD01-3706-4A51-58C5B359EA15" name="fonos">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>FE36A40A-03E4-0634-8CF3-2A45D4F6F6CE</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2A771043-7FEE-DDB0-74E4-36C5E82A3063">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>F01767DF-144D-21F8-C8AB-B7CC30333493</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="73DE518F-E948-0C37-3AD1-AB8A0CD32145">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>3C39F37A-F2F2-E7DC-C3C3-C27C9BD82B88</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="5802E7CE-4A91-DFDA-DAA1-789836505093">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>866259AE-8B8D-A497-5C07-6F94EFD9AC53</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personas_id" id="384CAD13-A9F9-E647-6B20-D325047E6DB5">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>CB5981A3-D1CB-1AD7-F17E-6ABC5F7DB41A</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4211A6BE-C8F3-91B4-4D58-99D0C5D0052C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD3DB685-A449-92DA-9435-BD6F7A94D2C6" referredColumn="4211A6BE-C8F3-91B4-4D58-99D0C5D0052C"/>
+</associations>
+</Column>
+<Column name="tiposFonos_id" id="E4797EEE-B681-EB13-4603-406B91DC9DD4">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>3E73B9E9-C0DF-E1C1-2041-8F3E1E7A9899</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FFE23C78-6CFA-2D5C-4C43-9147F934F108</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB51B3B9-C9DC-A431-8592-D6DBCEA8D8FB" referredColumn="FFE23C78-6CFA-2D5C-4C43-9147F934F108"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DB51C3A-1AD7-82D5-BC84-87C8E50778F0" name="fonos_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>0AD15DF6-0047-7785-CAB5-8BEE5A181282</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A771043-7FEE-DDB0-74E4-36C5E82A3063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DEE1ED7-3E1F-24C6-9F14-4FDADC041984" name="fonos_personas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>8805DC43-7E6E-A3BB-33BD-8B5EF7E42F21</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="384CAD13-A9F9-E647-6B20-D325047E6DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6D4C857-3F37-FF74-BCAD-0FE6FEF2F9E5" name="fonos_tiposFonos_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>B843B996-E7EE-65DF-5EDC-6188D0D55E8C</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4797EEE-B681-EB13-4603-406B91DC9DD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

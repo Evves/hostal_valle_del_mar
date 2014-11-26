@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F35E71CA-DE14-8CA2-7C36-45E00CC91EC8" name="reparaciones">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>060E197A-AFDA-C347-34D7-1C817D84304F</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3834E5E1-CA55-6BB9-D5E0-3F92DC2D49C0">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>FA9F28CD-2F58-CEBA-354A-7D8D0B3A301E</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B409FCAD-E6DE-2BC3-3CAC-31024975E46B">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>C22CF3C1-69FB-50E9-F90C-26C11F1E5A9C</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaReparacion" id="688520A5-E01F-69DB-B8DC-6E73BB352C37">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>249EFEB9-AC6C-434F-0820-980D5DC40DC8</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroHabitacion" id="07F0E22B-D89F-5E5B-3675-82946FCB318C">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>C82E2CE3-7B5E-1B08-EA64-EA2480DACC92</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="CEE2DB97-7516-1E7C-CA5D-3BFD18DBADC4">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>589BF589-9299-C2BC-B150-25DCB359007D</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="30ECAFF7-A125-0031-AF20-ED2F1D966249">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>06B69A28-9194-B0C3-6149-F3840E53CE11</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habitaciones_id" id="D30E8A9E-ADCD-C591-56FF-8EF9FCF15C4E">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>3BB1E125-E1E4-09FC-8EE4-6548442853CC</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F71D4729-87BE-245D-CEFD-19F7D4AF29D9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1385F9F1-E81C-E9E4-905E-28B667E128BD" referredColumn="F71D4729-87BE-245D-CEFD-19F7D4AF29D9"/>
+</associations>
+</Column>
+<Column name="tiposEstados_id" id="3ED4E185-DE5A-D83A-C84A-8CFB7E86D189">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>696186E8-683C-44B9-9D7A-9981FD98ADBE</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7FAE6FCF-BCBD-C61F-4782-716B9A9528F6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="351AFC92-1E08-AA3F-5046-7E2CA7A323D1" referredColumn="7FAE6FCF-BCBD-C61F-4782-716B9A9528F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA803A8-8717-30B6-9672-FBC6202CD3FE" name="reparaciones_PK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>67175827-D0BB-8862-B376-CFE2C093018F</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3834E5E1-CA55-6BB9-D5E0-3F92DC2D49C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7101198-98DE-2210-9DAF-19450D82F82F" name="reparaciones_habitaciones_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>F39459BC-C47F-8EB0-3871-81FC39693FCB</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D30E8A9E-ADCD-C591-56FF-8EF9FCF15C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06CC1169-AA31-2347-9A23-47CD89DF210D" name="reparaciones_tiposEstados_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>E2484A75-96D6-E262-E554-4E9FCD73829D</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ED4E185-DE5A-D83A-C84A-8CFB7E86D189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

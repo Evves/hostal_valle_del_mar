@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="317303E9-9A53-F99F-168B-45AAF9D86B0E" name="reservas_personas_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>84378C64-EE26-A6B5-9C6B-FF1709C267E1</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<containerWithKeyObject>496019C5-F5B2-5E73-A35D-514AD40FE6FC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>4549FD67-2121-30D8-8DE0-5C9295EF99FB</localFKIndex>
+<keyObject>98AFB3EF-CC8A-239E-4C99-EBDE3C249398</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

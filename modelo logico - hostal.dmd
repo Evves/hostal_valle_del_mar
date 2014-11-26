@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo logico - hostal" id="9C22C41C-9726-4F92-B334-714353FAC2B9" version="3.5">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:29:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9C22C41C-9726-4F92-B334-714353FAC2B9</designId>
+</OSDM_Design>

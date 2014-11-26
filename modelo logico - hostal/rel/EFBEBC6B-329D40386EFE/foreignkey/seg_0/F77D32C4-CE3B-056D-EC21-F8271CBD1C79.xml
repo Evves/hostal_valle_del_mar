@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F77D32C4-CE3B-056D-EC21-F8271CBD1C79" name="limpiezas_tiposEstados_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>C542635F-FA09-B1A8-E21F-00550B87D27E</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<containerWithKeyObject>DD5C5632-D454-AEAE-2F0D-F9C72E387BB2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>1CADB9E8-45BE-F8EE-1E58-EB42D32808CB</localFKIndex>
+<keyObject>A4C2EC14-7123-C088-5481-DB92F0E4901D</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

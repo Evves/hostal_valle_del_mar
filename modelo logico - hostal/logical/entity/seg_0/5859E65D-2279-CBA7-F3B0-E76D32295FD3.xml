@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5859E65D-2279-CBA7-F3B0-E76D32295FD3" name="limpiezas">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="018EC5BB-7093-459E-9418-A5A71CB54118">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:15:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="estado" id="6824EEE9-53C4-1B43-AF34-9159DC903CDC">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 20:48:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="id1" id="45008490-59D3-4378-9D6A-8C77ADC128CF">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:49:30 UTC</createdTime>
+<generatorID>1DA9DA81-29B6-9ED8-BF65-60554D2D314B</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<referedAttribute>20DA5BDE-83B8-20E2-71C7-B33E11852F67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id2" id="0C66B2A1-BD74-8E3D-03B2-4FD9976FA97A">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:49:40 UTC</createdTime>
+<generatorID>2CC2062F-D831-2DF8-8258-7B7C11F6BE76</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<referedAttribute>284E50A6-2260-44ED-17AB-D0C674BDF1DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id3" id="C837C0D5-CD0C-880A-852A-28E89E9DBC2B">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:49:52 UTC</createdTime>
+<generatorID>ED63344D-E796-0D94-07D6-2EF8DD835872</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<referedAttribute>32B3EAE5-333D-3F0A-BCA6-EEA5B51032B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id4" id="CED79203-4EF1-1529-1EAE-CF333CC5D6FB">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:51:42 UTC</createdTime>
+<generatorID>C542635F-FA09-B1A8-E21F-00550B87D27E</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<referedAttribute>C7FE4604-D35A-496C-B4D0-5E36120DEF20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3042F05-BED2-0F0F-1341-A3B22C73F8F2" name="limpiezas PK">
+<createdBy>sistemas</createdBy>
+<createdTime>2014-10-23 21:15:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<engineerTo>
+<item key="DBDB8DD0-E51B-1271-4F57-7BBCEF3DA131" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>018EC5BB-7093-459E-9418-A5A71CB54118</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

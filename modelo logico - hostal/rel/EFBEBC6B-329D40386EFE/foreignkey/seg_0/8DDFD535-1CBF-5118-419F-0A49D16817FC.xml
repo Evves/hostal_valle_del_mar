@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DDFD535-1CBF-5118-419F-0A49D16817FC" name="invetarios_habitaciones_FK">
+<createdBy>MaxiEuropeo</createdBy>
+<createdTime>2014-11-05 18:58:34 UTC</createdTime>
+<generatorID>53425E0B-BA7E-F8B7-CBBD-A620F7D013A6</generatorID>
+<ownerDesignName>modelo logico - hostal</ownerDesignName>
+<containerWithKeyObject>1BB9A821-A857-715D-ACA8-70108E12D436</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5328F9DF-81A7-A646-D9A7-6AB07B01D8C1</localFKIndex>
+<keyObject>80DF57D8-B540-883D-EF49-B61687BAB116</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
